@@ -1,0 +1,15 @@
+{
+  "name": "pi-google-home",
+  "version": "0.1.0",
+  "description": "Pi Coding Agent extension for Google Home / SDM API device control",
+  "main": "src/index.ts",
+  "pi": {
+    "extensions": ["./src/index.ts"]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*",
+    "typebox": "*"
+  }
+}
